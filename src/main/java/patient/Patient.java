@@ -3,16 +3,16 @@ package patient;
 import user.User;
 
 public class Patient extends User {
-    private String triague = "Inmediato";
+    private String triage = "Inmediato";
 
-    public String getTriangue() {
-        return triague;
+    public String getTriage() {
+        return triage;
     }
 
     public Patient(){
         super.setName("Santino");
         super.setAge(15);
-        this.getTriangue();
+        this.getTriage();
     }
 
 }
