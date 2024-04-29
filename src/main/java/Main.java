@@ -14,5 +14,8 @@ public class Main {
 
         System.out.println("Edad usuario: "+user.getAge()+", Nombre Usuario :"+user.getName());
         System.out.println("Edad doctor: "+doctor.getAge()+", Nombre Doctor :"+doctor.getName());
+
+
+
     }
 }
